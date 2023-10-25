@@ -1,12 +1,12 @@
-import React from 'react';
-import { RiAdminFill } from 'react-icons/ri';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { RiAdminFill } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 
 function AdminLogin() {
   const navigate = useNavigate();
   const handleSignIn = (e) => {
     e.preventDefault();
-    navigate('/dashboard');
+    navigate("/dashboard");
   };
 
   return (
@@ -57,7 +57,8 @@ function AdminLogin() {
                 </label>
                 <div className='text-sm'>
                   <a
-                    href='#'
+                    href='/'
+                    rel='noreferrer'
                     className='font-semibold text-[#3E2753] hover:text-indigo-500'
                   >
                     Forgot password?
@@ -87,9 +88,10 @@ function AdminLogin() {
           </form>
 
           <p className='mt-10 text-center text-sm text-gray-500'>
-            Not a member?{' '}
+            Not a member?{" "}
             <a
-              href='#'
+              href='/'
+              rel='noreferrer'
               className='font-semibold leading-6 text-pri hover:text-gray-900'
             >
               Request access

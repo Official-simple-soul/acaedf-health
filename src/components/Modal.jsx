@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from "react";
 
 function Modal({ isOpen, onClose, children }) {
   return (
     <div
       className={`fixed inset-0 flex items-center justify-center transition-all ease-in-out duration-500  ${
-        isOpen ? 'opacity-1 z-50' : 'opacity-0 -z-10'
+        isOpen ? "opacity-1 z-50" : "opacity-0 -z-10"
       }`}
     >
       <div

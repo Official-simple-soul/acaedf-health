@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import AdminLogin from './AdminLogin';
-import Modal from './Modal';
+import React, { useState } from "react";
+import AdminLogin from "./AdminLogin";
+import Modal from "./Modal";
 
 function CTA() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -54,7 +54,8 @@ function CTA() {
                 Get started
               </button>
               <a
-                href='#'
+                href='/'
+                rel='noreferrer'
                 className='text-sm font-semibold leading-6 text-white'
               >
                 Learn more <span aria-hidden='true'>→</span>

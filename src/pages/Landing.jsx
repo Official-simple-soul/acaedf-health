@@ -1,8 +1,7 @@
-import React from 'react';
-import AdminLogin from '../components/AdminLogin';
-import Cards from '../components/Cards';
-import CTA from '../components/CTA';
-import OurTeam from '../components/OurTeam';
+import React from "react";
+import Cards from "../components/Cards";
+import CTA from "../components/CTA";
+import OurTeam from "../components/OurTeam";
 
 function Landing() {
   return (
