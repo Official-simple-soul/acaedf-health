@@ -1,54 +1,54 @@
-import React from 'react';
+import React from "react";
 import {
   AiFillFacebook,
   AiFillTwitterSquare,
   AiFillInstagram,
   AiFillLinkedin,
-} from 'react-icons/ai';
+} from "react-icons/ai";
 
 const cardData = [
   {
-    imgSrc: '/images/team-1.jpeg',
-    name: 'Walter park',
-    title: 'Chief Executive Officer',
+    imgSrc: "/images/team-1.jpeg",
+    name: "Walter park",
+    title: "Chief Executive Officer",
     socialLinks: [
-      { icon: <AiFillFacebook />, url: '#' },
-      { icon: <AiFillTwitterSquare />, url: '#' },
-      { icon: <AiFillInstagram />, url: '#' },
-      { icon: <AiFillLinkedin />, url: '#' },
+      { icon: <AiFillFacebook />, url: "#" },
+      { icon: <AiFillTwitterSquare />, url: "#" },
+      { icon: <AiFillInstagram />, url: "#" },
+      { icon: <AiFillLinkedin />, url: "#" },
     ],
   },
   {
-    imgSrc: '/images/team-2.jpeg',
-    name: 'Another Name',
-    title: 'Another Title',
+    imgSrc: "/images/team-2.jpeg",
+    name: "Another Name",
+    title: "Another Title",
     socialLinks: [
-      { icon: <AiFillFacebook />, url: '#' },
-      { icon: <AiFillTwitterSquare />, url: '#' },
-      { icon: <AiFillInstagram />, url: '#' },
-      { icon: <AiFillLinkedin />, url: '#' },
+      { icon: <AiFillFacebook />, url: "#" },
+      { icon: <AiFillTwitterSquare />, url: "#" },
+      { icon: <AiFillInstagram />, url: "#" },
+      { icon: <AiFillLinkedin />, url: "#" },
     ],
   },
   {
-    imgSrc: '/images/team-3.jpeg',
-    name: 'Another Name',
-    title: 'Another Title',
+    imgSrc: "/images/team-3.jpeg",
+    name: "Another Name",
+    title: "Another Title",
     socialLinks: [
-      { icon: <AiFillFacebook />, url: '#' },
-      { icon: <AiFillTwitterSquare />, url: '#' },
-      { icon: <AiFillInstagram />, url: '#' },
-      { icon: <AiFillLinkedin />, url: '#' },
+      { icon: <AiFillFacebook />, url: "#" },
+      { icon: <AiFillTwitterSquare />, url: "#" },
+      { icon: <AiFillInstagram />, url: "#" },
+      { icon: <AiFillLinkedin />, url: "#" },
     ],
   },
   {
-    imgSrc: '/images/team-4.jpeg',
-    name: 'Another Name',
-    title: 'Another Title',
+    imgSrc: "/images/team-4.jpeg",
+    name: "Another Name",
+    title: "Another Title",
     socialLinks: [
-      { icon: <AiFillFacebook />, url: '#' },
-      { icon: <AiFillTwitterSquare />, url: '#' },
-      { icon: <AiFillInstagram />, url: '#' },
-      { icon: <AiFillLinkedin />, url: '#' },
+      { icon: <AiFillFacebook />, url: "#" },
+      { icon: <AiFillTwitterSquare />, url: "#" },
+      { icon: <AiFillInstagram />, url: "#" },
+      { icon: <AiFillLinkedin />, url: "#" },
     ],
   },
 ];
@@ -66,7 +66,7 @@ function OurTeam() {
             fugiat sit in iste officiis commodi quidem hic quas.
           </p>
         </div>
-        <div className='grid grid-cols-4 gap-10 py-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-4'>
           {cardData.map((card, index) => (
             <div
               key={index}
@@ -91,7 +91,7 @@ function OurTeam() {
                   <h5 className='card-title font-bold'>{card.name}</h5>
                   <p
                     className='card-text text-secondary'
-                    style={{ fontSize: '12px' }}
+                    style={{ fontSize: "12px" }}
                   >
                     {card.title}
                   </p>
